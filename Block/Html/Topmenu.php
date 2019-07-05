@@ -217,7 +217,7 @@ class Topmenu extends \Magento\Theme\Block\Html\Topmenu
         Node $menuTree,
         $childrenWrapClass,
         $limit,
-        $colBrakes = []
+        array $colBrakes = []
     ) {
         $html = '';
 
