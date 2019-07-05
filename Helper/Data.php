@@ -112,15 +112,15 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 		$html = '';
 		switch($label) {
 			case 'new' :
-				$html = '&nbsp;&nbsp;<span class="label label-info">New</span>';
+				$html = '&nbsp;&nbsp;<span class="label label-info">'.__('New').'</span>';
 				break;
 
 			case 'hot' :
-				$html = '&nbsp;&nbsp;<span class="label label-danger">Hot</span>';
+				$html = '&nbsp;&nbsp;<span class="label label-danger">'.__('Hot').'</span>';
 				break;
 
 			case 'sale' :
-				$html = '&nbsp;&nbsp;<span class="label label-success">Sales</span>';
+				$html = '&nbsp;&nbsp;<span class="label label-success">'.__('Sale').'</span>';
 		}
 		return $html;
 	}
